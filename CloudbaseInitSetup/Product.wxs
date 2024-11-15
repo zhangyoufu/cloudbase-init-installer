@@ -50,7 +50,7 @@
     See: http://technet.microsoft.com/en-us/library/bb457125.aspx
     -->
     <Property Id="SERVICE_USER_RIGHTS" Value="SeAssignPrimaryTokenPrivilege" />
-    <Property Id="RUN_SERVICE_AS_LOCAL_SYSTEM" />
+    <Property Id="RUN_SERVICE_AS_LOCAL_SYSTEM" Value="1" />
 
     <UIRef Id="MyWixUI_FeatureTree" />
     <UIRef Id="WixUI_ErrorProgressText" />
