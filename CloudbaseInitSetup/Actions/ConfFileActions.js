@@ -62,7 +62,7 @@ function writeCloudbaseInitConfFileAction() {
             "mtu_use_dhcp_config": true,
             "ntp_use_dhcp_config": true,
             "local_scripts_path": localScriptsFolder,
-            "check_latest_version": true
+            "check_latest_version": false
         };
 
         if (maasMetadataUrl) {
